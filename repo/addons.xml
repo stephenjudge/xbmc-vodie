@@ -22,7 +22,7 @@
 
   <!-- Repository Plugin -->
   <addon id="repository.googlecode.xbmc-vodie"
-  name="xbmc-vodie Add-ons" version="1.0.0"
+  name="xbmc-vodie Add-ons" version="1.0.1"
   provider-name="kitesurfingie">
     <extension point="xbmc.addon.repository"
     name="XBMC-VODie Add-on Repository">
