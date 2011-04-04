@@ -2,7 +2,7 @@
 <addons>
 <addon id="plugin.video.vodie"
        name="VODie - Video On Demand Ireland"
-       version="1.1.0"
+       version="1.1.1"
        provider-name="kitesurfing@kitesurfing.ie">
   <requires>
     <import addon="xbmc.python" version="1.0"/>
