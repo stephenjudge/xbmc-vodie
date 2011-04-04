@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.vodie"
+       name="VODie - Video On Demand Ireland"
+       version="1.1.0"
+       provider-name="kitesurfing@kitesurfing.ie">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+    <import addon="script.module.simplejson" version="2.0.10"/>
+    <import addon="script.module.beautifulsoup" version="3.0.8"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Watch Magnet Web TV and Catchup on RTE, TV3 and TG4 shows</summary>
+    <description lang="en">Watch Magnet Web TV and Catchup on RTE, TV3 and TG4 shows</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+  <!-- Repository Plugin -->
+  <addon id="repository.googlecode.xbmc-vodie"
+  name="xbmc-vodie Add-ons" version="1.0.0"
+  provider-name="kitesurfingie">
+    <extension point="xbmc.addon.repository"
+    name="xbmc-vodie Add-on Repository">
+      <info compressed="false">
+      http://xbmc-vodie.googlecode.com/svn/repo/addons.xml</info>
+      <checksum>
+      http://xbmc-vodie.googlecode.com/svn/repo/addons.xml.md5</checksum>
+      <datadir zip="true">
+      http://xbmc-vodie.googlecode.com/svn/repo/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <summary>Install Add-ons from xbmc-vodie</summary>
+      <description>Download and install add-ons from
+      xbmc-vodie addon repository.[CR][CR]By using this
+      Repository you will be able to download and use the latest
+      version of the Catch-up TV Plugins.</description>
+      <disclaimer>Use at your own risk</disclaimer>
+      <platform>all</platform>
+    </extension>
+  </addon>
+</addons>
